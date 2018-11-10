@@ -4,13 +4,13 @@
  */
 declare(strict_types=1);
 
-namespace Tests;
+namespace AaronSaray\LaravelTestHelpers;
 
 use Illuminate\Contracts\Auth\Authenticatable;
 
 /**
  * Trait CreateActingAs
- * @package Tests
+ * @package AaronSaray\LaravelTestHelpers
  */
 trait CreateActingAs
 {

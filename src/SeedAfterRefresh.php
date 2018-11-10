@@ -4,11 +4,11 @@
  */
 declare(strict_types=1);
 
-namespace Tests;
+namespace AaronSaray\LaravelTestHelpers;
 
 /**
  * Trait SeedAfterRefresh
- * @package Tests
+ * @package AaronSaray\LaravelTestHelpers
  */
 trait SeedAfterRefresh
 {
