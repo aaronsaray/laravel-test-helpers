@@ -1,5 +1,6 @@
 {
     "name": "aaronsaray/laravel-test-helpers",
+    "description": "Laravel test helpers by Aaron Saray.",
     "authors": [
         {
             "name": "Aaron Saray",
