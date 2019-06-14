@@ -29,3 +29,11 @@ When you need to seed your data immediately after the first migration (re)fresh:
 `use AaronSaray\LaravelTestHelpers\SeedAfterRefresh`
 
 Now, when the `migrate:fresh` is called, `db:seed` will be called after (at the beginning of the test suite.)
+
+### Mark Test Skipped Because Todo
+
+Sometimes you might not have all the time you need for all your tests (for shame!) but that doesn't mean you want to forget about them.  
+
+`use AaronSaray\LaravelTestHelpers\HasTodo`
+
+Then call `$this->todo();` which will mark the test as incomplete and give stderr a message with the test name.
